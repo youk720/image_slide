@@ -4,5 +4,12 @@
 console.log("test sentence of hello world"); //
 
 $(document).ready(function(){
-  $("#test").css("color", "blue");
+  //文字のcssをjqueryで適用させる
+  $("#test").css("color", "#38b48b");
+  $("#top_sentence").css({
+    'color':"#ffffff",
+    'font-size':'30px'
+  });
+
+  //いか
 });
